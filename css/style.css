@@ -9582,6 +9582,17 @@ textarea.form-control {
       color: #000000;
       font-style: italic; }
 
+.footer_area {
+  background: #000410; }
+
+.f_title {
+  margin-bottom: 25px; }
+.f_title h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0px; }
+
 #ftco-loader {
   position: fixed;
   width: 96px;
