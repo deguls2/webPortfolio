@@ -10,15 +10,11 @@
 
 	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css">
-
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
-
 	<link rel="stylesheet" href="css/aos.css">
-
 	<link rel="stylesheet" href="css/ionicons.min.css">
-
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -26,10 +22,9 @@
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="index.html"><span>K</span>ooMinJeong</a>
+			<a class="navbar-brand" href="index.html"><span>Z</span>zuGoon</a>
 			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
 				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
@@ -57,10 +52,10 @@
 				<div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
 					<div class="text text-center">
 						<span class="subheading">Hey! I am</span>
-						<h1>구민정</h1>
+						<h1>주홍식</h1>
 						<h2>I'm a
 							<span class="txt-rotate" data-period="500"
-								data-rotate='["스타트업 개발자", "ERP 개발자", "세무회계 솔루션", "3년차"]'></span>
+								data-rotate='["스타트업 개발자", "Web 개발자", "Adroid 개발자", "ERP,세무회계 솔루션 개발", "3년차"]'></span>
 						</h2>
 					</div>
 				</div>
@@ -81,7 +76,7 @@
 					<div class="img-about img d-flex align-items-stretch">
 						<div class="overlay"></div>
 						<div class="img d-flex align-self-stretch align-items-center"
-							style="background-image:url(images/about.jpg);">
+							style="background-image:url(images/about.png);">
 						</div>
 					</div>
 				</div>
@@ -105,9 +100,13 @@
 								<span class="number" data-number="24">0</span>
 								<span>Project complete</span>
 							</p>
-							<p><a target="_blank"
-									href="https://drive.google.com/file/d/1uJg0Yun35HWc4YsEKfEX5L6Uyik5MPl_/view?usp=sharing"
-									class="btn btn-primary py-3 px-3">이력서 다운받기(x)</a></p>
+							<p>
+								<a
+								target="_blank"
+								href="https://drive.google.com/file/d/1uJg0Yun35HWc4YsEKfEX5L6Uyik5MPl_/view?usp=sharing"
+								class="btn btn-primary py-3 px-3">이력서 다운받기(x)
+								</a>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -776,6 +775,26 @@
 				stroke="#F96D00" />
 		</svg></div>
 
+	<script type="text/javascript">
+		let today;
+		let beginDay;
+		let jobCount;
+
+		testFunc2();
+		// document.write("함수 외부...<br/>");
+		function testFunc2() {
+			// alert("함수 내부...2<br/>");
+
+			today = new Date();
+			beginDay = new Date(2020,5,6);
+			let timeGap = today.getTime() - beginDay.getTime();
+			jobCount = Math.ceil(timeGap / (1000 * 60 * 60 * 24));
+			console.log('jobCount ::' + jobCount);
+
+			document.getElementById()
+
+		}
+	</script>
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -789,7 +808,6 @@
 	<script src="js/aos.js"></script>
 	<script src="js/jquery.animateNumber.min.js"></script>
 	<script src="js/scrollax.min.js"></script>
-
 	<script src="js/main.js"></script>
 
 </body>
